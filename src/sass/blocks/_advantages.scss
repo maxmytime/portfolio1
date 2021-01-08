@@ -1,0 +1,27 @@
+.advantages {
+    padding-top: 70px;
+    padding-bottom: 85px;
+    background-color: #f6f6f6;
+    a {
+        color: #ff0000;
+        text-decoration: underline  ;
+    }
+    &__wrapper {
+        padding-top: 40px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    &__item {
+        width: 316px;
+        padding: 0 15px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 25px;
+        img {
+            width: 70px;
+            margin: 0 auto;
+        }
+    }
+}
